@@ -18,6 +18,26 @@
 
   gtag('config', 'G-4K7Q5ZHL9D');
 </script>
+<script>
+    const darkModeIcon = document.getElementById('darkMode-icon');
+    const body = document.body;
+
+    // Vérifie si le mode sombre est déjà activé dans les préférences de l'utilisateur
+    if(localStorage.getItem('darkMode') === 'enabled') {
+        body.classList.add('dark');
+    }
+
+    // Ajoute un événement au clic pour basculer le mode sombre
+    darkModeIcon.addEventListener('click', () => {
+        body.classList.toggle('dark');
+        // Sauvegarde l'état du mode sombre dans le localStorage
+        if(body.classList.contains('dark')) {
+            localStorage.setItem('darkMode', 'enabled');
+        } else {
+            localStorage.setItem('darkMode', 'disabled');
+        }
+    });
+</script>
 <body>
     <header class="header">
         <a href="#" class="logo"><img class="logo" src="assets/" alt="">Takoua chemli</a>
