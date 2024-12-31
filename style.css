@@ -930,3 +930,142 @@ span {
     }
   }
   .certif-slide
+
+@media (max-width: 768px) {
+    .header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 2.8rem;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    #darkMode-icon {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 5%;
+    }
+
+    .home .home-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .home .home-content p {
+        font-size: 1.4rem;
+    }
+
+    .home .profession-container {
+        width: 600px;
+        height: 600px;
+    }
+
+    .home .profession-box .profession {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .skills .skill-card {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .skills .card {
+        padding: 20px;
+    }
+
+    .skills .card h4 {
+        font-size: 20px;
+    }
+
+    .skills .card p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .portfolio .portfolio-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portfolio-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .portfolio-layer {
+        padding: 2rem;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 2rem;
+    }
+
+    .portfolio-layer p {
+        font-size: 1.4rem;
+    }
+}@media (max-width: 768px) {
+    .slider {
+        width: 100%;
+    }
+
+    .slider .slide {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content .social-media a {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 1rem 2.4rem;
+    }
+
+    .disappear {
+        font-size: 8vw;
+    }
+}@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+    .home .profession-container {
+        width: 800px;
+        height: 800px;
+    }
+
+    .portfolio .portfolio-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .skills h2 {
+        font-size: 2.5rem;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 1.8rem;
+    }
+}
+
